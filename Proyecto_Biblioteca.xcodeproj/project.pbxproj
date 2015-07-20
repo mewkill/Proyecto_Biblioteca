@@ -14,6 +14,12 @@
 		9C14B5CF1B5D6CE200743D92 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C14B5CE1B5D6CE200743D92 /* Images.xcassets */; };
 		9C14B5D21B5D6CE200743D92 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C14B5D01B5D6CE200743D92 /* LaunchScreen.xib */; };
 		9C14B5DE1B5D6CE200743D92 /* Proyecto_BibliotecaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C14B5DD1B5D6CE200743D92 /* Proyecto_BibliotecaTests.m */; };
+		9C14B5EF1B5D83DB00743D92 /* BookListViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C14B5ED1B5D83DB00743D92 /* BookListViewViewController.m */; };
+		9C14B5F01B5D83DB00743D92 /* BookListViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C14B5EE1B5D83DB00743D92 /* BookListViewViewController.xib */; };
+		9C14B5F71B5D849100743D92 /* DetailsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C14B5F51B5D849100743D92 /* DetailsView.m */; };
+		9C14B5F81B5D849100743D92 /* DetailsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C14B5F61B5D849100743D92 /* DetailsView.xib */; };
+		9C14B5FC1B5D899200743D92 /* UserRegisterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C14B5FA1B5D899200743D92 /* UserRegisterView.m */; };
+		9C14B5FD1B5D899200743D92 /* UserRegisterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C14B5FB1B5D899200743D92 /* UserRegisterView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +46,15 @@
 		9C14B5D71B5D6CE200743D92 /* Proyecto_BibliotecaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Proyecto_BibliotecaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C14B5DC1B5D6CE200743D92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C14B5DD1B5D6CE200743D92 /* Proyecto_BibliotecaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Proyecto_BibliotecaTests.m; sourceTree = "<group>"; };
+		9C14B5EC1B5D83DB00743D92 /* BookListViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookListViewViewController.h; sourceTree = "<group>"; };
+		9C14B5ED1B5D83DB00743D92 /* BookListViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookListViewViewController.m; sourceTree = "<group>"; };
+		9C14B5EE1B5D83DB00743D92 /* BookListViewViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BookListViewViewController.xib; sourceTree = "<group>"; };
+		9C14B5F41B5D849100743D92 /* DetailsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsView.h; sourceTree = "<group>"; };
+		9C14B5F51B5D849100743D92 /* DetailsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsView.m; sourceTree = "<group>"; };
+		9C14B5F61B5D849100743D92 /* DetailsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailsView.xib; sourceTree = "<group>"; };
+		9C14B5F91B5D899200743D92 /* UserRegisterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserRegisterView.h; sourceTree = "<group>"; };
+		9C14B5FA1B5D899200743D92 /* UserRegisterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserRegisterView.m; sourceTree = "<group>"; };
+		9C14B5FB1B5D899200743D92 /* UserRegisterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserRegisterView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +104,15 @@
 				9C14B5CE1B5D6CE200743D92 /* Images.xcassets */,
 				9C14B5D01B5D6CE200743D92 /* LaunchScreen.xib */,
 				9C14B5C11B5D6CE200743D92 /* Supporting Files */,
+				9C14B5EC1B5D83DB00743D92 /* BookListViewViewController.h */,
+				9C14B5ED1B5D83DB00743D92 /* BookListViewViewController.m */,
+				9C14B5EE1B5D83DB00743D92 /* BookListViewViewController.xib */,
+				9C14B5F41B5D849100743D92 /* DetailsView.h */,
+				9C14B5F51B5D849100743D92 /* DetailsView.m */,
+				9C14B5F61B5D849100743D92 /* DetailsView.xib */,
+				9C14B5F91B5D899200743D92 /* UserRegisterView.h */,
+				9C14B5FA1B5D899200743D92 /* UserRegisterView.m */,
+				9C14B5FB1B5D899200743D92 /* UserRegisterView.xib */,
 			);
 			path = Proyecto_Biblioteca;
 			sourceTree = "<group>";
@@ -199,9 +223,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C14B5F01B5D83DB00743D92 /* BookListViewViewController.xib in Resources */,
 				9C14B5CD1B5D6CE200743D92 /* Main.storyboard in Resources */,
 				9C14B5D21B5D6CE200743D92 /* LaunchScreen.xib in Resources */,
 				9C14B5CF1B5D6CE200743D92 /* Images.xcassets in Resources */,
+				9C14B5FD1B5D899200743D92 /* UserRegisterView.xib in Resources */,
+				9C14B5F81B5D849100743D92 /* DetailsView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,8 +246,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C14B5F71B5D849100743D92 /* DetailsView.m in Sources */,
+				9C14B5EF1B5D83DB00743D92 /* BookListViewViewController.m in Sources */,
 				9C14B5CA1B5D6CE200743D92 /* ViewController.m in Sources */,
 				9C14B5C71B5D6CE200743D92 /* AppDelegate.m in Sources */,
+				9C14B5FC1B5D899200743D92 /* UserRegisterView.m in Sources */,
 				9C14B5C41B5D6CE200743D92 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
